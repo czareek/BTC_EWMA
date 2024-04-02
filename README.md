@@ -14,9 +14,15 @@ Kod został podzielony na trzy funkcje:
 - `mymethod` - implementuje strategię inwestycyjną na podstawie analizy średniej ważonej kroczącej eksponencjalnej (EWMA) oraz warunków transakcyjnych.
 - `raport` - przeprowadza analizę strategii na danych testowych, generuje raport ze stanem portfela i tworzy wykres strategii inwestycyjnej.
 
+Do uruchomienia kodu służy skrypt `run.m`.
+
 ## Wyniki:
 
+![image](https://github.com/czareek/BTC_EWMA/assets/148364757/7d83ca71-ceaa-41eb-b2f8-881c2710c167)
+
+
 Strategia wygenerowała zadowalający wynik w postaci stanu portfela w Bitcoinach na ostatni dzień zbioru testowego, który wyniósł 24.4634. Należy jednak pamiętać, że wyniki finansowe oparte na historycznych notowaniach mają ograniczone znaczenie w przewidywaniu przyszłych wyników inwestycyjnych.
+
 
 
 ## Uwagi i Kierunki Rozwoju:
